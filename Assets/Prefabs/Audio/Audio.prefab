@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1900525456176700}
+  m_IsPrefabAsset: 1
+--- !u!1 &1900525456176700
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4478654325188084}
+  - component: {fileID: 114097716639323274}
+  m_Layer: 0
+  m_Name: Audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4478654325188084
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1900525456176700}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114097716639323274
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1900525456176700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93981de8a0e5fc468a01f289e050f78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gunSfxList:
+  - {fileID: 8300000, guid: 574fb38c379a38f4792a2402b6e626bf, type: 3}
+  - {fileID: 8300000, guid: 991694faf5de47b4092054d448645368, type: 3}
+  - {fileID: 8300000, guid: b1268c34389ef8a4fb8f705863ed82ce, type: 3}
+  - {fileID: 8300000, guid: 8e2d4fd549959ae46936c5b6e7d9da25, type: 3}
+  - {fileID: 8300000, guid: 143611a15ba41d4439c90e738797e06a, type: 3}
+  - {fileID: 8300000, guid: 359c70e9b3cce5748991603b473c2213, type: 3}
+  - {fileID: 8300000, guid: e07297c941f380248a117293d750683c, type: 3}
+  - {fileID: 8300000, guid: 991694faf5de47b4092054d448645368, type: 3}
+  - {fileID: 8300000, guid: 93811eadf65eed54b86762defafcfb00, type: 3}
+  - {fileID: 8300000, guid: 9d6716420a7fe914ea378125d789d4cf, type: 3}
+  bloodSfxList:
+  - {fileID: 8300000, guid: 5a23051ba2fb7463894298bbb746f38c, type: 3}
+  - {fileID: 8300000, guid: f8403bb915d70482183f93a0437c3b68, type: 3}
+  - {fileID: 8300000, guid: 6830f65cb4fec4ddd89bf2b65c8ee231, type: 3}
+  - {fileID: 8300000, guid: 90e9e70c517224f58a65882d57775fa2, type: 3}
+  - {fileID: 8300000, guid: 415f90dcaf08c476485de7203b532058, type: 3}
+  - {fileID: 8300000, guid: 9f492e93a9b6d4116a9f9c4e158552f9, type: 3}
+  - {fileID: 8300000, guid: 16d12f402c92b4276a833fc78bb87688, type: 3}
+  - {fileID: 8300000, guid: 074bf80d5766c47798955eb402a6be2c, type: 3}
+  - {fileID: 8300000, guid: 5cea1a976329644d3b607a934b89ae5e, type: 3}
+  - {fileID: 8300000, guid: 93652b5d9b6034c7e9e31c0fc5332494, type: 3}
+  - {fileID: 8300000, guid: 92faaec49d9d14922b3c805cee141512, type: 3}
+  - {fileID: 8300000, guid: 9a00e1037961849cea91f7df7b7d594d, type: 3}
+  - {fileID: 8300000, guid: a2e8a74ef1a9446b08071fdc9fece59f, type: 3}
+  - {fileID: 8300000, guid: 290d566268536452291457bfe8fb9a1e, type: 3}
+  - {fileID: 8300000, guid: 76a05b14239a2437cab4ff7f11b1e7d7, type: 3}
+  - {fileID: 8300000, guid: 810330dc79ab94c0295ed26385f0322b, type: 3}
+  - {fileID: 8300000, guid: 7a543971099e8449a8caa6e21df26fc1, type: 3}
+  zombieHitSfxList:
+  - {fileID: 8300000, guid: c84c0745400cf79418b23172e478ac3f, type: 3}
+  - {fileID: 8300000, guid: 31728d85d53a7db438b7436f33b10629, type: 3}
+  - {fileID: 8300000, guid: d210708c077fad14884d9d470dee84c1, type: 3}
+  - {fileID: 8300000, guid: 0fbc24fbf58990d45a61648da4775763, type: 3}
+  - {fileID: 8300000, guid: 0e2290af1763d454c9c75277f408f6d5, type: 3}
+  - {fileID: 8300000, guid: 12f3f1e623e3f0c45b7b841e34b51447, type: 3}
+  - {fileID: 8300000, guid: d79122dcea98b0e45b9f12f6e728a799, type: 3}
+  zombieAttackSfxList:
+  - {fileID: 8300000, guid: e1dcc8a2b945ca84aa1da1df76ae071c, type: 3}
+  - {fileID: 8300000, guid: 39d75e3374ce89b48ae9e01233972ec6, type: 3}
+  playerHitSfxList:
+  - {fileID: 8300000, guid: f71d4c1bf5294934bb4b80261528c021, type: 3}
+  - {fileID: 8300000, guid: 7c3bfc4178ff370449ea3d800d1216d6, type: 3}
